@@ -1,0 +1,126 @@
+
+body{
+    background-color: white ;
+    font-family: 'Roboto', sans-serif;
+    width: 90%;
+    display: block;
+    margin:auto;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #EAC926;
+    margin: 15px;
+    box-sizing: border-box;
+}
+
+section{
+    background-color: #ebebeb;
+    margin: 15px;
+    box-sizing: border-box;
+}
+
+article{
+    border: solid 1px #ebebeb;
+    padding: 10px;
+    background-color: #ebebeb; 
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: #c9c9c9;
+    margin: 15px;
+    padding-bottom: 1px;    
+    box-sizing: border-box;
+}
+
+h1{
+    color: #EAC926;
+}
+
+h2{
+    color:black;
+    text-align: center;
+}
+
+
+.subtituloh3{
+    font-size: 24px;
+    padding: 3%;
+}
+
+.subtituloh4{
+    color: #666; 
+    text-align: center;
+}
+
+.subtituloh5{
+    color: rgb(61, 60, 60); 
+    text-align:center;
+}
+
+.texto{
+    font-size: 12px;
+    color: rgb(61, 60,60); 
+    text-align: center;
+}
+
+.precios{
+    font-size: 18px;
+    text-align: justify;
+    padding-left: 5%;
+}
+
+.descuentos{
+    font-size: 16px;
+    text-align: justify;
+    color:#39b54a; 
+    padding-left: 5%;
+}
+
+.descripciones{
+    font-size: 16px;
+    text-align: justify;
+    padding-left: 5%;
+}
+
+.imagen {
+    color: #1259c3;
+}
+
+.imgmercado{
+    width: 90%;
+    display: block;
+    margin:auto
+}
+
+.imagencarrito{
+    color: #39b54a; 
+}
+
+#banner{
+    width: 100%;
+    display: block;
+    margin:auto
+}
+
+#logo{
+    width: 40%;
+    display: left;
+    margin:auto;
+    padding-left: 3%;
+}
+
+#busqueda{
+    margin-left: 3%;
+}
+
+
+
+@media (min-width: 361px){
+     
+}
+
+@media (min-width: 769px){
+    
+}
