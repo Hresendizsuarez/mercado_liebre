@@ -1,3 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+}
+
+
+/* Cabecera */
+
+header{
+    background-color: #EAC926;
+    margin: 15px;
+    box-sizing: border-box;
+}
+
+
+.respmenu1{
+    list-style:none;
+    display: flex;
+}
+
+
+.burguer{   
+    display:block;
+    margin:auto;
+    background-color: #0044AA;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 20px;
+    height: 40px;
+    padding: 10px;
+    width: 3%;
+    box-sizing: border-box;
+}
+
+
+/* Cuerpo */
 
 body{
     background-color: white ;
@@ -8,11 +45,7 @@ body{
     box-sizing: border-box;
 }
 
-header{
-    background-color: #EAC926;
-    margin: 15px;
-    box-sizing: border-box;
-}
+
 
 section{
     background-color: #ebebeb;
@@ -21,18 +54,35 @@ section{
 }
 
 article{
+    display: block;
     border: solid 1px #ebebeb;
     padding: 10px;
     background-color: #ebebeb; 
     box-sizing: border-box;
 }
-
-footer{
-    background-color: #c9c9c9;
-    margin: 15px;
-    padding-bottom: 1px;    
+.articulop{
+    display: block;
+    font-size: 1.5em;
+    background-color:white ;
+    width: 90%;
+    margin:auto;
+    border: solid 1px #ebebeb;
+    padding: 5px;
     box-sizing: border-box;
 }
+
+.imagencarrito{
+    display: block;
+    width: 30px; 
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 80%;
+    /* position: relative;
+    left: 1.5em; */
+}
+
+
 
 h1{
     color: #EAC926;
@@ -41,6 +91,10 @@ h1{
 h2{
     color:black;
     text-align: center;
+}
+
+p{
+    font-size: 12px;
 }
 
 
@@ -84,9 +138,7 @@ h2{
     padding-left: 5%;
 }
 
-.imagen {
-    color: #1259c3;
-}
+
 
 .imgmercado{
     width: 90%;
@@ -98,29 +150,76 @@ h2{
     color: #39b54a; 
 }
 
-#banner{
+.banner2{
+    display: flex;
+    justify-content: center;   
+    margin: auto;
     width: 100%;
-    display: block;
-    margin:auto
+    box-sizing: border-box;
+    margin-top: -10px;
+    width: 100%;
 }
 
-#logo{
+.logo{
     width: 40%;
     display: left;
-    margin:auto;
     padding-left: 3%;
 }
 
-#busqueda{
+
+.busqueda{
     margin-left: 3%;
 }
 
 
 
-@media (min-width: 361px){
-     
+   
+
+/* Footer */
+footer{
+    background-color: #c9c9c9;
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
-@media (min-width: 769px){
-    
+
+.imagen {
+    display: flex;
+    justify-content: center;
+    color: #1259c3;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
 }
+
+.imagenb{
+    font-size: 2em;;
+}
+
+.registro{
+    display: flex;
+    flex:content;
+}
+
+
+/* Responsive */
+
+@media (max-width: 361px){
+    .descripciones{
+        display: none;
+    }
+
+    article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    nav{
+        display:none;
+    }
+
+}
+
